@@ -4,21 +4,21 @@
 // 12821 -> да
 // 23432 -> да
 
-// Console.WriteLine("Введите пятизначное число");
-// int num= Convert.ToInt32(Console.ReadLine());
-// int dig0=num/10000;
-// int dig1=num/100;
-// int dig3=num/10;
-// int dig4=num%10;
+Console.WriteLine("Введите пятизначное число");
+int num= Convert.ToInt32(Console.ReadLine());
+int dig0=num/10000;
+int dig1=num/100;
+int dig3=num/10;
+int dig4=num%10;
 
-// if(dig0==dig4 || dig1==dig3)
-// {
-//     Console.WriteLine("да");
-// }
-// else 
-// {
-//     Console.WriteLine("нет");
-// }
+if(dig0==dig4 || dig1==dig3)
+{
+    Console.WriteLine("да");
+}
+else if(dig0!=dig4 || dig1!=dig3)
+{
+    Console.WriteLine("нет");
+}
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
