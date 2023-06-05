@@ -1,0 +1,46 @@
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+// Console.WriteLine("Введите два числа");
+// int A= Convert.ToInt32(Console.ReadLine());
+// int B= Convert.ToInt32(Console.ReadLine());
+
+// double d=Math.Pow(A,B);
+// Console.WriteLine(d);
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+// Console.WriteLine("Введите число");
+// int num= Convert.ToInt32(Console.ReadLine());
+// int sum= 0;
+
+// while(num>0)
+// {
+//     int dig= num % 10;
+//     num= num/10;
+//     sum=sum + dig;
+// }
+// Console.WriteLine(sum);
+    
+// Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+// Console.Write("[");
+// void CreateArray()
+// {
+//     int[] arr = new int[8];
+//     int count = 0;
+//     while(count < arr.Length)
+//     {
+//         arr [count] = new Random().Next(0,100);
+//         Console.WriteLine($"{arr[count]},");
+//         count++;
+//     }
+// }
+// CreateArray();
+// Console.Write("]");
